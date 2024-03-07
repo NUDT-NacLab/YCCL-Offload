@@ -1,0 +1,16 @@
+SET(LIBRARY_OUTPUT_PATH "${PROJECT_BINARY_DIR}/build/lib")
+add_compile_options(-O3)
+add_compile_options(-std=c99)
+add_compile_options(-fopenmp)
+add_definitions(-w)
+set(CMAKE_C_FLAGS "-fPIC")
+include_directories("/usr/local/glex/include")
+link_directories("/usr/local/glex/lib/")
+include_directories("${PROJECT_SOURCE_DIR}/include")
+include_directories("${PROJECT_SOURCE_DIR}/IntCompresser")
+link_directories("${PROJECT_SOURCE_DIR}/IntCompresser")
+AUX_SOURCE_DIRECTORY(${PROJECT_SOURCE_DIR}/src GLEXCOLL_SRC)
+add_library(glexcoll STATIC ${GLEXCOLL_SRC})  
+# find_library(IntCompresser libic.a)
+
+                       

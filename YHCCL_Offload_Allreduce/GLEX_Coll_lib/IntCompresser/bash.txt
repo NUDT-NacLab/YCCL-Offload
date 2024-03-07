@@ -1,0 +1,4 @@
+原型机：
+module add GCC/8.2.0
+cd /vol8/home/nudtgcy/PJT-WorkDir/TuboPfor
+gcc -w -c -o test.o test.c && gcc -fopenmp -w -o test *.o -lm && ./test 24

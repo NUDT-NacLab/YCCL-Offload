@@ -1,0 +1,29 @@
+{
+    "files.associations": {
+        "time.h": "c",
+        "random": "c",
+        "type_traits": "cpp",
+        "glexallreduce.h": "c",
+        "array": "c",
+        "string_view": "c",
+        "initializer_list": "c",
+        "utility": "c",
+        "mman.h": "c",
+        "algorithm": "c",
+        "vector": "c",
+        "xstring": "c",
+        "xutility": "c",
+        "xlocale": "c",
+        "glexcoll.h": "c",
+        "string": "c",
+        "functional": "c",
+        "istream": "c",
+        "ostream": "c",
+        "tuple": "c",
+        "glex.h": "c",
+        "*.tcc": "cpp",
+        "cmath": "c",
+        "deque": "c",
+        "unordered_map": "c"
+    }
+}
